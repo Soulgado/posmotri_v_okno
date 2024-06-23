@@ -51,7 +51,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: end;
-  margin: 133px 0;
+  margin-top: 133px;
   margin-left: 30px;
 }
 
@@ -141,16 +141,16 @@ ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid white;
   margin-right: 5px;
 }
 
 input:active + span.search-form__pseudo-checkbox::before {
   content: '';
-  display: block;
-  position: absolute;
-  inset: 1px;
+  display: inline-block;
   width: 15px;
   height: 15px;
   background-color: white;
